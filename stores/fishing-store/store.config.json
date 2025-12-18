@@ -1,0 +1,20 @@
+{
+  "store": {
+    "id": "fishing-store",
+    "name": "Fishing Gear Pro",
+    "domain": "fishingearpro.com",
+    "region": "US",
+    "theme": "outdoor",
+    "launched_at": "2024-06-20"
+  },
+  "features": {
+    "enabled": [
+      "semantic-seo"
+    ],
+    "disabled": [
+      "momo-payment"
+    ],
+    "config": {}
+  },
+  "updated_at": "2025-12-10T14:00:00Z"
+}
