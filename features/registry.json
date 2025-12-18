@@ -1,0 +1,87 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2025-12-17T10:00:00Z",
+  "features": [
+    {
+      "id": "vector-search",
+      "name": "Vector Search",
+      "description": "Semantic product search using AI embeddings",
+      "category": "search",
+      "priority": "high",
+      "added_at": "2025-11-15",
+      "added_in_commit": "abc1234",
+      "docs_url": "https://docs.internal/features/vector-search",
+      "dependencies": [],
+      "tags": ["ai", "search", "core"]
+    },
+    {
+      "id": "semantic-seo",
+      "name": "Semantic SEO",
+      "description": "AI-powered meta tags, structured data, and keyword optimization",
+      "category": "seo",
+      "priority": "high",
+      "added_at": "2025-11-20",
+      "added_in_commit": "def5678",
+      "docs_url": "https://docs.internal/features/semantic-seo",
+      "dependencies": [],
+      "tags": ["ai", "seo", "core"]
+    },
+    {
+      "id": "wishlist",
+      "name": "Wishlist",
+      "description": "Customer wishlist with email notifications",
+      "category": "feature",
+      "priority": "medium",
+      "added_at": "2025-12-01",
+      "added_in_commit": "ghi9012",
+      "docs_url": null,
+      "dependencies": [],
+      "tags": ["customer", "engagement"]
+    },
+    {
+      "id": "new-checkout",
+      "name": "New Checkout Flow",
+      "description": "Streamlined one-page checkout with better UX",
+      "category": "checkout",
+      "priority": "high",
+      "added_at": "2025-12-05",
+      "added_in_commit": "jkl3456",
+      "docs_url": null,
+      "dependencies": [],
+      "tags": ["checkout", "ux", "conversion"]
+    },
+    {
+      "id": "momo-payment",
+      "name": "Momo Payment Gateway",
+      "description": "Vietnam Momo wallet integration",
+      "category": "payment",
+      "priority": "low",
+      "added_at": "2025-12-10",
+      "added_in_commit": "mno7890",
+      "docs_url": null,
+      "dependencies": ["new-checkout"],
+      "tags": ["payment", "vietnam"],
+      "region_specific": ["VN"]
+    },
+    {
+      "id": "ai-recommendations",
+      "name": "AI Product Recommendations",
+      "description": "Personalized product recommendations using ML",
+      "category": "ai",
+      "priority": "medium",
+      "added_at": "2025-12-15",
+      "added_in_commit": "pqr1234",
+      "docs_url": null,
+      "dependencies": ["vector-search"],
+      "tags": ["ai", "personalization"]
+    }
+  ],
+  "categories": [
+    { "id": "search", "name": "Search & Discovery", "icon": "🔍" },
+    { "id": "seo", "name": "SEO & Marketing", "icon": "📈" },
+    { "id": "checkout", "name": "Checkout & Payment", "icon": "💳" },
+    { "id": "payment", "name": "Payment Gateways", "icon": "💰" },
+    { "id": "feature", "name": "Customer Features", "icon": "⭐" },
+    { "id": "ai", "name": "AI & ML", "icon": "🤖" }
+  ]
+}
