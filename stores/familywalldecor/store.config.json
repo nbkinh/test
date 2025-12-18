@@ -1,0 +1,30 @@
+{
+  "store": {
+    "id": "familywalldecor",
+    "name": "Family Wall Decor",
+    "domain": "familywalldecor.com",
+    "region": "US",
+    "theme": "family",
+    "launched_at": "2024-01-15"
+  },
+  "features": {
+    "enabled": [
+      "vector-search",
+      "semantic-seo",
+      "wishlist",
+      "new-checkout",
+      "momo-payment"
+    ],
+    "disabled": [],
+    "config": {
+      "vector-search": {
+        "model": "text-embedding-3-small",
+        "dimensions": 512
+      },
+      "momo-payment": {
+        "partner_code": "FWDVN123"
+      }
+    }
+  },
+  "updated_at": "2025-12-17T08:00:00Z"
+}
