@@ -12,7 +12,7 @@
     "enabled": [
       "Embedding vector tag",
       "Activity Logs",
-      "Help Center Page",
+      "Help Center Page"
     ],
     "disabled": [],
     "config": {
