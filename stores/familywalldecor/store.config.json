@@ -10,11 +10,9 @@
   },
   "features": {
     "enabled": [
-      "vector-search",
-      "semantic-seo",
-      "wishlist",
-      "new-checkout",
-      "momo-payment"
+      "Embedding vector tag",
+      "Activity Logs",
+      "Help Center Page",
     ],
     "disabled": [],
     "config": {
