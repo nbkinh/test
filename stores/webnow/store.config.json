@@ -1,0 +1,25 @@
+{
+  "store": {
+    "id": "webnow",
+    "name": "Webnow",
+    "domain": "webnow.com",
+    "region": "US",
+    "branch": "silo_webnow",
+    "theme": "multiple",
+    "launched_at": "2024-01-16"
+  },
+  "features": {
+    "enabled": [],
+    "disabled": [],
+    "config": {
+      "vector-search": {
+        "model": "text-embedding-3-small",
+        "dimensions": 512
+      },
+      "momo-payment": {
+        "partner_code": "FWDVN123"
+      }
+    }
+  },
+  "updated_at": "2025-12-17T08:00:00Z"
+}
