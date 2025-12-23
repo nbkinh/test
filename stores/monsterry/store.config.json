@@ -1,0 +1,29 @@
+{
+  "store": {
+    "id": "monsterry",
+    "name": "Monsterry",
+    "domain": "monsterry.com",
+    "region": "US",
+    "branch": "silo_monsterry_dash",
+    "theme": "pod",
+    "launched_at": "2024-01-16"
+  },
+  "features": {
+    "enabled": [
+      "Embedding vector tag",
+      "Activity Logs",
+      "Help Center Page"
+    ],
+    "disabled": [],
+    "config": {
+      "vector-search": {
+        "model": "text-embedding-3-small",
+        "dimensions": 512
+      },
+      "momo-payment": {
+        "partner_code": "FWDVN123"
+      }
+    }
+  },
+  "updated_at": "2025-12-17T08:00:00Z"
+}
