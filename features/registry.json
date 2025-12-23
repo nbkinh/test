@@ -107,7 +107,7 @@
       "description": "Query product by phrase match, query tag by phrase match",
       "category": "search",
       "priority": "feature",
-      "added_at": "2025-12-15",
+      "added_at": "2025-12-16",
       "added_in_commit": "",
       "docs_url": null,
       "dependencies": [],
