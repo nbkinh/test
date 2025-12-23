@@ -3,7 +3,6 @@
   "updated_at": "2025-12-20T18:09:00Z",
   "features": [
     {
-      "id": "vector-search",
       "name": "Vector Search",
       "description": "Semantic product search using AI embeddings",
       "category": "search",
@@ -15,65 +14,104 @@
       "tags": ["ai", "search", "core"]
     },
     {
-      "id": "semantic-seo",
-      "name": "Semantic SEO",
-      "description": "AI-powered meta tags, structured data, and keyword optimization",
-      "category": "seo",
+      "name": "Embedding vector tag",
+      "description": "Auto create embedding vector when create a new tag",
+      "category": "feature",
       "priority": "high",
       "added_at": "2025-11-20",
-      "added_in_commit": "def5678",
-      "docs_url": "https://docs.internal/features/semantic-seo",
+      "added_in_commit": "",
+      "docs_url": "",
       "dependencies": [],
       "tags": ["ai", "seo", "core"]
     },
     {
-      "id": "wishlist",
-      "name": "Wishlist",
-      "description": "Customer wishlist with email notifications",
+      "name": "Embedding vector product",
+      "description": "Auto create embedding vector when create a new product",
+      "category": "feature",
+      "priority": "medium",
+      "added_at": "2025-11-20",
+      "added_in_commit": "",
+      "docs_url": "",
+      "dependencies": [],
+      "tags": ["ai", "seo", "core"]
+    },
+    {
+      "name": "New semantic box",
+      "description": "Merge all semantic box to only one box",
       "category": "feature",
       "priority": "medium",
       "added_at": "2025-12-01",
-      "added_in_commit": "ghi9012",
+      "added_in_commit": "",
       "docs_url": null,
       "dependencies": [],
-      "tags": ["customer", "engagement"]
+      "tags": ["core", "feature"]
     },
     {
-      "id": "new-checkout",
-      "name": "New Checkout Flow",
-      "description": "Streamlined one-page checkout with better UX",
-      "category": "checkout",
+      "name": "New query",
+      "description": "Remove lsi canonical change to use new query bot",
+      "category": "feature",
+      "priority": "medium",
+      "added_at": "2025-12-01",
+      "added_in_commit": "",
+      "docs_url": null,
+      "dependencies": [],
+      "tags": ["core", "feature"]
+    },
+    {
+      "name": "Tag 2",
+      "description": "Tags noindex. Tag 2 là tag được sinh ra ko check SERP mục đích để tăng internal links",
+      "category": "feature",
       "priority": "high",
       "added_at": "2025-12-05",
-      "added_in_commit": "jkl3456",
+      "added_in_commit": "",
       "docs_url": null,
       "dependencies": [],
-      "tags": ["checkout", "ux", "conversion"]
+      "tags": ["core", "feature"]
     },
     {
-      "id": "momo-payment",
-      "name": "Momo Payment Gateway",
-      "description": "Vietnam Momo wallet integration",
-      "category": "payment",
+      "name": "Activity Logs",
+      "description": "Log all activity when process tag",
+      "category": "feature",
       "priority": "low",
       "added_at": "2025-12-10",
       "added_in_commit": "mno7890",
       "docs_url": null,
-      "dependencies": ["new-checkout"],
-      "tags": ["payment", "vietnam"],
+      "dependencies": [],
+      "tags": ["core"],
       "region_specific": ["VN"]
     },
     {
-      "id": "ai-recommendations",
-      "name": "AI Product Recommendations",
-      "description": "Personalized product recommendations using ML",
-      "category": "ai",
+      "name": "Seed tags v2",
+      "description": "New logic: add seed tag when clone. Add seed tag in the list tag management. Filter by seed tag. How to use it will be discussed further.",
+      "category": "feature",
       "priority": "medium",
       "added_at": "2025-12-15",
-      "added_in_commit": "pqr1234",
+      "added_in_commit": "",
       "docs_url": null,
-      "dependencies": ["vector-search"],
-      "tags": ["ai", "personalization"]
+      "dependencies": [],
+      "tags": ["core"]
+    },
+    {
+      "name": "Help Center Page",
+      "description": "",
+      "category": "seo",
+      "priority": "medium",
+      "added_at": "2025-12-15",
+      "added_in_commit": "",
+      "docs_url": null,
+      "dependencies": [],
+      "tags": ["seo", "feature"]
+    },
+    {
+      "name": "Phrase match query",
+      "description": "Query product by phrase match, query tag by phrase match",
+      "category": "search",
+      "priority": "feature",
+      "added_at": "2025-12-15",
+      "added_in_commit": "",
+      "docs_url": null,
+      "dependencies": [],
+      "tags": ["seo", "core", "search"]
     }
   ],
   "categories": [
