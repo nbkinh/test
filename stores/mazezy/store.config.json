@@ -1,0 +1,33 @@
+{
+  "store": {
+    "id": "mazezy",
+    "name": "Mazezy",
+    "domain": "mazezy.com",
+    "region": "US",
+    "branch": "silo_mazezy_dash",
+    "theme": "pod",
+    "launched_at": "2024-01-16"
+  },
+  "features": {
+    "enabled": [
+      "Embedding vector tag",
+      "Activity Logs",
+      "Tag 2",
+      "New semantic box",
+      "New query",
+      "Phrase match query",
+      "Seed tags v2"
+    ],
+    "disabled": [],
+    "config": {
+      "vector-search": {
+        "model": "text-embedding-3-small",
+        "dimensions": 512
+      },
+      "momo-payment": {
+        "partner_code": "FWDVN123"
+      }
+    }
+  },
+  "updated_at": "2025-12-17T08:00:00Z"
+}
